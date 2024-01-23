@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Dichiarazione della versione XML e del set di caratteri -->
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <!-- Definizione di un'unità di persistenza denominata "prova" con tipo di transazione RESOURCE_LOCAL -->
+    <persistence-unit name="jpaD2" transaction-type="RESOURCE_LOCAL">
+        <!-- Specifica il nome della classe dell'Entity Manager (attualmente commentato) -->
+        <class><!-- Nome della classe dell'Entity Manager --></class>
+        <!-- Configurazione delle proprietà per l'unità di persistenza -->
+        <properties>
+            <!-- Driver del database per PostgreSQL -->
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <!-- URL di connessione al database per PostgreSQL -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/corso_jpa_d2"/>
+            <!-- Nome utente del database -->
+            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <!-- Password per l'accesso al database -->
+            <property name="javax.persistence.jdbc.password" value="Monfalcone3"/>
+            <!-- Schema predefinito per Hibernate -->
+            <property name="hibernate.default_schema" value="public"/>
+            <!-- Azione di Hibernate per aggiornare lo schema del database -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <!-- Dialetto specifico di Hibernate per PostgreSQL -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+        </properties>
+    </persistence-unit>
+</persistence>
