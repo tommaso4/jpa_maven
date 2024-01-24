@@ -5,23 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e92f03eb-d374-4b4c-84ea-ea057b97c861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/EventDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/TypeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/useEventDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/EventDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/EventDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/LocationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/LocationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/ParticipationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/ParticipationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/dao/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/EGenres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/EGenres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/EState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/EState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Participation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Participation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/useEventDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/week3/day2/useEventDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,7 +38,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2bMHlQ8cGPAnNyq3NccL9yhUDnL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

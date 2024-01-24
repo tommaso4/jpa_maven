@@ -1,6 +1,7 @@
 package it.epicode.week3.day2.dao;
 
 import it.epicode.week3.day2.entities.Event;
+import it.epicode.week3.day2.entities.Location;
 
 import javax.persistence.*;
 import java.util.List;
@@ -60,5 +61,6 @@ public class EventDao {
         }
 
     }
+
 
 }
